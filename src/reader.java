@@ -15,18 +15,18 @@ public class reader {
     public static String getURL(){
     String output = "";
     try {
-        URL my_url = new URL("https://www.googleapis.com/customersearch/v1?key=AIzaSyDMQgesCOiC6vCt9LNpaskLIQRRa7zpSsI&cx=013036536707430787589:_pqjad5hr1a&q=axapta&alt=json");
+        URL my_url = new URL("https://www.googleapis.com/customsearch/v1?key=AIzaSyDMQgesCOiC6vCt9LNpaskLIQRRa7zpSsI&cx=013036536707430787589:_pqjad5hr1a&q=axapta&alt=json");
 
             BufferedReader br = new BufferedReader(new InputStreamReader(my_url.openStream()));
-            String strTemp = "";
+            String strTemp;
             while(null != (strTemp = br.readLine())){
                 //System.out.println(strTemp);
                 output = output + strTemp + "\n";
             }
          }
         catch (IOException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-        }
+    e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+}
         return output;
     }
 }

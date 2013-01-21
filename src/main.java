@@ -9,7 +9,8 @@ public class main {
     public static void main(String[] args){
         String urlOutput = "";
         urlOutput = reader.getURL();
+        String finalOutput = jsonParser.getURL(urlOutput);
 
-        System.out.print(urlOutput);
+        System.out.print(finalOutput);
     }
 }

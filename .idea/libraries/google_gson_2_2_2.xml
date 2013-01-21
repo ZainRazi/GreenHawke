@@ -4,8 +4,43 @@
       <root url="jar://$PROJECT_DIR$/libs/google-gson-2.2.2/gson-2.2.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/google-gson-2.2.2/gson-2.2.2-sources.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/google-gson-2.2.2/gson-2.2.2-javadoc.jar!/" />
+      <root url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" />
+      <root url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" />
+      <root url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" />
+      <root url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" />
+      <root url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" />
+      <root url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" />
+      <root url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" />
+      <root url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" />
     </CLASSES>
-    <JAVADOC />
-    <SOURCES />
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/libs/google-gson-2.2.2/gson-2.2.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" />
+      <root url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" />
+      <root url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" />
+      <root url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" />
+      <root url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" />
+      <root url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" />
+      <root url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" />
+      <root url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/google-gson-2.2.2" recursive="false" type="SOURCES" />
   </library>
 </component>
