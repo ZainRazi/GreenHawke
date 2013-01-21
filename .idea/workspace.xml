@@ -10,7 +10,7 @@
     <file path="/reader.java" changelist="fb33219e-19f3-4020-9781-8cc478d67720" time="1358539277197" ignored="false" />
     <file path="/jsonParser.java" changelist="fb33219e-19f3-4020-9781-8cc478d67720" time="1358781656261" ignored="false" />
     <file path="/fragment.java" changelist="fb33219e-19f3-4020-9781-8cc478d67720" time="1358769344635" ignored="false" />
-    <file path="/Dummy.txt" changelist="fb33219e-19f3-4020-9781-8cc478d67720" time="1358785859861" ignored="false" />
+    <file path="/Dummy.txt" changelist="fb33219e-19f3-4020-9781-8cc478d67720" time="1358786005184" ignored="false" />
     <file path="/BagOfPrimitives.java" changelist="fb33219e-19f3-4020-9781-8cc478d67720" time="1358771954853" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -419,7 +419,11 @@
       <created>1358785889027</created>
       <updated>1358785889027</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First advances in json parser and correct url for google api">
+      <created>1358786010258</created>
+      <updated>1358786010258</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -459,7 +463,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2333094" sideWeight="0.7183735" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2333094" sideWeight="0.27108434" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2333094" sideWeight="0.27108434" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32831326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
