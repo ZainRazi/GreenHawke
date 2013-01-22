@@ -1,11 +1,12 @@
 
 package Json;
 
+import java.util.Collection;
 import java.util.List;
 
 public class JsonObject{
    	private Context context;
-   	private List items;
+   	public Collection<Items> items;
    	private String kind;
    	private Queries queries;
    	private SearchInformation searchInformation;
@@ -17,7 +18,7 @@ public class JsonObject{
 	public void setContext(Context context){
 		this.context = context;
 	}
- 	public List getItems(){
+ 	public Collection<Items> getItems(){
 		return this.items;
 	}
 	public void setItems(List items){

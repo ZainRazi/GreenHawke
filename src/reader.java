@@ -22,6 +22,7 @@ public class reader {
             while(null != (strTemp = br.readLine())){
                 //System.out.println(strTemp);
                 output = output + strTemp + "\n";
+
             }
          }
         catch (IOException e) {

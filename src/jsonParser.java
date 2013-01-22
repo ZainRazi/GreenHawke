@@ -8,9 +8,7 @@
 import Json.Items;
 import Json.JsonObject;
 import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
-import java.lang.reflect.Type;
-import java.util.ArrayList;
+
 
 
 public class jsonParser {
@@ -19,27 +17,16 @@ public class jsonParser {
 
     public static String getURL(String output){
 
-        //urlOutput = reader.getURL();
-        //urlOutput = gson.toJson(obj);
+       String link = "";
        Gson gson = new Gson();
        JsonObject obj = gson.fromJson(output, JsonObject.class);
-       String firstparse = obj.getItems().toString();
 
-       Items obj2 = gson.fromJson(firstparse, Items.class);
+       for (Items k : obj.items) {
 
-       String link = obj2.getLink();
+           link = link + k.getLink() +"\n";
 
-        //Type listType = new TypeToken<ArrayList<Items>>(){}.getType();
-        //Gson gson = new Gson();
-        //java.util.ArrayList<Items> myList = gson.fromJson(firstparse, listType);
-        //String listoflinks = "";
-        //for (Items p : myList)
-        //{
-          //  listoflinks = listoflinks + p.getLink() + "\n";
-        //}
+       }
         return link;
     }
 
-    //urlOutput = reader.getURL();
-    //urlOutput = reader.toJson(obj);
 }
