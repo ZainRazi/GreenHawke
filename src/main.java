@@ -1,3 +1,5 @@
+import java.util.List;
+
 /**
  * Created with IntelliJ IDEA.
  * User: Zain
@@ -9,8 +11,15 @@ public class main {
     public static void main(String[] args){
         String urlOutput = "";
         urlOutput = reader.getURL();
-        String finalOutput = jsonParser.getURL(urlOutput);
+        List<googleSearchResult> resultList = jsonParser.getURL(urlOutput);
+        //String finalOutput = jsonParser.getURL(urlOutput);
+        for(googleSearchResult searchResultInstance: resultList)        //for every googleSearchResult object (i call these searchResultInstance neil called it k) : in the resultList
+            {System.out.println(searchResultInstance + "\n");}
 
-        System.out.print(finalOutput);
+        //System.out.print(jsonParser.getURL(urlOutput));
+    }
+
+    public static int getIdentifier(){
+        return 1;
     }
 }

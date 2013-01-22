@@ -9,24 +9,31 @@ import Json.Items;
 import Json.JsonObject;
 import com.google.gson.Gson;
 
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class jsonParser {
 
     private String urlOutput;
 
-    public static String getURL(String output){
-
+    public static List<googleSearchResult> getURL(String output){
+          //make an arrayList of googleSearchResult and call it resultList
+       ArrayList<googleSearchResult> resultList = new ArrayList<googleSearchResult>();
        String link = "";
+       int identifier;                //simple int to id which search result it is
        Gson gson = new Gson();
-       JsonObject obj = gson.fromJson(output, JsonObject.class);
+        JsonObject obj = gson.fromJson(output, JsonObject.class);
+       identifier = main.getIdentifier();     //get id from main (if we send two requests main will feed in id 11, but that's not written yet)
 
+               //for every item in the json
        for (Items k : obj.items) {
-
-           link = link + k.getLink() +"\n";
-
+                //call constructor for googleSearchResult
+           googleSearchResult mySearchResult = new googleSearchResult(identifier, k.getLink(), k.getSnippet(), k.getTitle());
+           identifier++;
+           resultList.add(mySearchResult);    //add the googleSearchResult instance to the resultList array
        }
-        return link;
+        return resultList;
     }
 
 }
