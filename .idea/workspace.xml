@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb33219e-19f3-4020-9781-8cc478d67720" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jsonParser.java" afterPath="$PROJECT_DIR$/src/jsonParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reader.java" afterPath="$PROJECT_DIR$/src/reader.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="untitled.iws" />
@@ -13,7 +10,7 @@
     <file path="/reader.java" changelist="fb33219e-19f3-4020-9781-8cc478d67720" time="1358941979548" ignored="false" />
     <file path="/jsonParser.java" changelist="fb33219e-19f3-4020-9781-8cc478d67720" time="1358942028387" ignored="false" />
     <file path="/fragment.java" changelist="fb33219e-19f3-4020-9781-8cc478d67720" time="1358769344635" ignored="false" />
-    <file path="/Dummy.txt" changelist="fb33219e-19f3-4020-9781-8cc478d67720" time="1358939652034" ignored="false" />
+    <file path="/Dummy.txt" changelist="fb33219e-19f3-4020-9781-8cc478d67720" time="1358942103366" ignored="false" />
     <file path="/BagOfPrimitives.java" changelist="fb33219e-19f3-4020-9781-8cc478d67720" time="1358771954853" ignored="false" />
     <file path="/JsonObject.java" changelist="fb33219e-19f3-4020-9781-8cc478d67720" time="1358872532663" ignored="false" />
     <file path="/searchResult.java" changelist="fb33219e-19f3-4020-9781-8cc478d67720" time="1358895516045" ignored="false" />
@@ -449,7 +446,11 @@
       <created>1358873626616</created>
       <updated>1358873626616</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added comments and made Key and search seperate variables which are implemented in the construction of the string my_URL in reader.java class">
+      <created>1358942111078</created>
+      <updated>1358942111078</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -536,7 +537,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="put search results into arrayList and created a class to represent the search result containing link, snippet and title" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added comments and made Key and search seperate variables which are implemented in the construction of the string my_URL in reader.java class" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -552,6 +553,7 @@
     <MESSAGE value="First advances in json parser and correct url for google api" />
     <MESSAGE value="Working JSON parser returning links" />
     <MESSAGE value="put search results into arrayList and created a class to represent the search result containing link, snippet and title" />
+    <MESSAGE value="Added comments and made Key and search seperate variables which are implemented in the construction of the string my_URL in reader.java class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
