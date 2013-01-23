@@ -18,7 +18,7 @@ public class jsonParser {
     private String urlOutput;
 
     public static List<googleSearchResult> getURL(String output){
-          //make an arrayList of googleSearchResult and call it resultList
+       //make an arrayList of googleSearchResult and call it resultList
        ArrayList<googleSearchResult> resultList = new ArrayList<googleSearchResult>();
        String link = "";
        int identifier;                //simple int to id which search result it is
@@ -27,9 +27,9 @@ public class jsonParser {
        identifier = main.getIdentifier();     //get id from main (if we send two requests main will feed in id 11, but that's not written yet)
 
                //for every item in the json
-       for (Items k : obj.items) {
+       for (Items website : obj.items) {
                 //call constructor for googleSearchResult
-           googleSearchResult mySearchResult = new googleSearchResult(identifier, k.getLink(), k.getSnippet(), k.getTitle());
+           googleSearchResult mySearchResult = new googleSearchResult(identifier, website.getLink(), website.getSnippet(), website.getTitle());
            identifier++;
            resultList.add(mySearchResult);    //add the googleSearchResult instance to the resultList array
        }
