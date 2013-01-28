@@ -7,6 +7,8 @@
  */
 import Json.Items;
 import Json.JsonObject;
+import Json.NextPage;
+import Json.Queries;
 import com.google.gson.Gson;
 
 import java.util.ArrayList;
@@ -23,7 +25,7 @@ public class jsonParser {
        String link = "";
        int identifier;                //simple int to id which search result it is
        Gson gson = new Gson();
-        JsonObject obj = gson.fromJson(output, JsonObject.class);
+       JsonObject obj = gson.fromJson(output, JsonObject.class);
        identifier = main.getIdentifier();     //get id from main (if we send two requests main will feed in id 11, but that's not written yet)
 
                //for every item in the json
@@ -35,5 +37,6 @@ public class jsonParser {
        }
         return resultList;
     }
+
 
 }

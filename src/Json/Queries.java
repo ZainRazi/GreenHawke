@@ -1,13 +1,14 @@
 
 package Json;
 
+import java.util.Collection;
 import java.util.List;
 
 public class Queries{
-   	private List nextPage;
+   	public Collection<NextPage> nextPage;
    	private List request;
 
- 	public List getNextPage(){
+ 	public Collection<NextPage> getNextPage(){
 		return this.nextPage;
 	}
 	public void setNextPage(List nextPage){

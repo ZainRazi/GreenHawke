@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb33219e-19f3-4020-9781-8cc478d67720" name="Default" comment="">
+    <list default="true" id="fb33219e-19f3-4020-9781-8cc478d67720" name="Default" comment="Added comments and made Key and search seperate variables which are implemented in the construction of the string my_URL in reader.java class">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FrontEnd.form" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/BagOfPrimitives.java" afterPath="$PROJECT_DIR$/src/FrontEnd.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Json/Queries.java" afterPath="$PROJECT_DIR$/src/Json/Queries.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jsonParser.java" afterPath="$PROJECT_DIR$/src/jsonParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.java" afterPath="$PROJECT_DIR$/src/main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reader.java" afterPath="$PROJECT_DIR$/src/reader.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="untitled.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/main.java" changelist="fb33219e-19f3-4020-9781-8cc478d67720" time="1358895456131" ignored="false" />
-    <file path="/reader.java" changelist="fb33219e-19f3-4020-9781-8cc478d67720" time="1358941979548" ignored="false" />
-    <file path="/jsonParser.java" changelist="fb33219e-19f3-4020-9781-8cc478d67720" time="1358942028387" ignored="false" />
+    <file path="/main.java" changelist="fb33219e-19f3-4020-9781-8cc478d67720" time="1359386432180" ignored="false" />
+    <file path="/reader.java" changelist="fb33219e-19f3-4020-9781-8cc478d67720" time="1358942637853" ignored="false" />
+    <file path="/jsonParser.java" changelist="fb33219e-19f3-4020-9781-8cc478d67720" time="1359113898898" ignored="false" />
     <file path="/fragment.java" changelist="fb33219e-19f3-4020-9781-8cc478d67720" time="1358769344635" ignored="false" />
-    <file path="/Dummy.txt" changelist="fb33219e-19f3-4020-9781-8cc478d67720" time="1358942103366" ignored="false" />
+    <file path="/Dummy.txt" changelist="fb33219e-19f3-4020-9781-8cc478d67720" time="1359218411874" ignored="false" />
     <file path="/BagOfPrimitives.java" changelist="fb33219e-19f3-4020-9781-8cc478d67720" time="1358771954853" ignored="false" />
     <file path="/JsonObject.java" changelist="fb33219e-19f3-4020-9781-8cc478d67720" time="1358872532663" ignored="false" />
     <file path="/searchResult.java" changelist="fb33219e-19f3-4020-9781-8cc478d67720" time="1358895516045" ignored="false" />
+    <file path="/Queries.java" changelist="fb33219e-19f3-4020-9781-8cc478d67720" time="1359113919762" ignored="false" />
+    <file path="/a.groovy" changelist="fb33219e-19f3-4020-9781-8cc478d67720" time="1359232294818" ignored="false" />
+    <file path="/a.java" changelist="fb33219e-19f3-4020-9781-8cc478d67720" time="1359232296787" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +37,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -63,6 +71,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -73,28 +82,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="51" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/reader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="55" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Context.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Json/Context.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="13" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
+            <state line="37" column="32" selection-start="1742" selection-end="1742" vertical-scroll-proportion="0.6958763">
               <folding />
             </state>
           </provider>
@@ -103,7 +94,7 @@
       <file leaf-file-name="Items.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Json/Items.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
+            <state line="12" column="45" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -112,7 +103,27 @@
       <file leaf-file-name="JsonObject.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Json/JsonObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="26" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0">
+            <state line="0" column="16" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Queries.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Json/Queries.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="25" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NextPage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Json/NextPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="13" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -121,16 +132,7 @@
       <file leaf-file-name="jsonParser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/jsonParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="84" selection-start="1371" selection-end="1371" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="googleSearchResult.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/googleSearchResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="75" selection-start="482" selection-end="482" vertical-scroll-proportion="0.7270408">
+            <state line="39" column="0" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -161,9 +163,13 @@
         <option value="$PROJECT_DIR$/src/Json/JsonObject.java" />
         <option value="$PROJECT_DIR$/src/searchResult.java" />
         <option value="$PROJECT_DIR$/src/googleSearchResult.java" />
-        <option value="$PROJECT_DIR$/src/main.java" />
         <option value="$PROJECT_DIR$/src/reader.java" />
+        <option value="$PROJECT_DIR$/src/UserInterface.form" />
+        <option value="$PROJECT_DIR$/src/Json/Queries.java" />
         <option value="$PROJECT_DIR$/src/jsonParser.java" />
+        <option value="$PROJECT_DIR$/src/FrontEnd.java" />
+        <option value="$PROJECT_DIR$/src/FrontEnd.form" />
+        <option value="$PROJECT_DIR$/src/main.java" />
       </list>
     </option>
   </component>
@@ -171,6 +177,22 @@
     <option name="y" value="22" />
     <option name="width" value="1440" />
     <option name="height" value="743" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -198,6 +220,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -230,28 +254,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GreenHawke" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GreenHawke" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Json" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -261,7 +265,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="File.Encoding" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/google-gson-2.2.2/gson-2.2.2.jar!/" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -450,7 +454,11 @@
       <created>1358942111078</created>
       <updated>1358942111078</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added comments and made Key and search seperate variables which are implemented in the construction of the string my_URL in reader.java class">
+      <created>1358942120332</created>
+      <updated>1358942120332</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -477,21 +485,22 @@
     <frame x="0" y="22" width="1440" height="743" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.88443017" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0882353" sideWeight="0.88443017" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990964" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.49769232" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1845907" sideWeight="0.50071734" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6743421" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14909638" sideWeight="0.98637015" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22238164" sideWeight="0.58426964" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22238164" sideWeight="0.74959874" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22238164" sideWeight="0.07865169" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3258427" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22238164" sideWeight="0.8154093" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48796147" sideWeight="0.49426112" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -563,56 +572,19 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/googleSearchResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="75" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GreenHawk.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/google-gson-2.2.2/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="43" selection-start="385" selection-end="385" vertical-scroll-proportion="0.25119618" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BagOfPrimitives.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Json/Url.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="53" selection-end="53" vertical-scroll-proportion="0.17942584">
-          <folding />
-        </state>
+        <state line="5" column="13" selection-start="53" selection-end="53" vertical-scroll-proportion="0.17942584" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Json/Request.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="53" selection-end="53" vertical-scroll-proportion="-1.583732">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Json/Queries.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="53" selection-end="53" vertical-scroll-proportion="0.17942584">
-          <folding />
-        </state>
+        <state line="5" column="13" selection-start="53" selection-end="53" vertical-scroll-proportion="-1.583732" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/libs/google-gson-2.2.2/gson-2.2.2-sources.jar!/com/google/gson/JsonParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="0" selection-start="2722" selection-end="2722" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="83" column="0" selection-start="2722" selection-end="2722" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/libs/google-gson-2.2.2/gson-2.2.2-sources.jar!/com/google/gson/internal/Streams.java">
@@ -620,16 +592,9 @@
         <state line="53" column="0" selection-start="1799" selection-end="1799" vertical-scroll-proportion="-0.2416268" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.java">
+    <entry file="file://$PROJECT_DIR$/src/googleSearchResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="51" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="55" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0">
+        <state line="16" column="25" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -641,30 +606,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Json/Items.java">
+    <entry file="file://$PROJECT_DIR$/src/reader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
+        <state line="34" column="60" selection-start="975" selection-end="975" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Json/JsonObject.java">
+    <entry file="file://$PROJECT_DIR$/src/FrontEnd.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FrontEnd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="26" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0">
+        <state line="10" column="0" selection-start="200" selection-end="200" vertical-scroll-proportion="0.3125">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jsonParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="84" selection-start="1371" selection-end="1371" vertical-scroll-proportion="0.0">
+        <state line="39" column="0" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/googleSearchResult.java">
+    <entry file="file://$PROJECT_DIR$/src/Json/NextPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="75" selection-start="482" selection-end="482" vertical-scroll-proportion="0.7270408">
+        <state line="5" column="13" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Json/Queries.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="25" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Json/JsonObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="16" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Json/Items.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="45" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="32" selection-start="1742" selection-end="1742" vertical-scroll-proportion="0.6958763">
           <folding />
         </state>
       </provider>
@@ -746,6 +746,17 @@
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <last-edited>google-gson-2.2.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
